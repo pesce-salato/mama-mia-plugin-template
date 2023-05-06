@@ -1,0 +1,35 @@
+{
+  "name": "mama-mia-plugin-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node ./scripts/create.js",
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesce-salato/mama-mia-plugin-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pesce-salato/mama-mia-plugin-template/issues"
+  },
+  "homepage": "https://github.com/pesce-salato/mama-mia-plugin-template#readme",
+  "devDependencies": {
+    "adm-zip": "^0.5.10",
+    "chalk": "^5.2.0",
+    "cpy": "^10.0.0",
+    "esbuild": "^0.17.18",
+    "inquirer": "^9.2.1",
+    "rimraf": "^5.0.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@pesce-salato/mama-mia-plugin-helper": "^0.0.2"
+  }
+}
