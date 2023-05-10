@@ -1,7 +1,7 @@
 import { CredentialPlugin, CredentialPluginGetValue } from '@pesce-salato/mama-mia-plugin-helper'
-import { type Page } from 'puppeteer-core'
+import { type Page, type Browser } from 'puppeteer-core'
 
-const get = async (page: Page): Promise<CredentialPluginGetValue> => {
+const get = async (browser: Browser): Promise<CredentialPluginGetValue> => {
   // demo return value
   return {
     data: {},
@@ -10,7 +10,7 @@ const get = async (page: Page): Promise<CredentialPluginGetValue> => {
   }
 }
 
-const apply = async (page, data) => {
+const apply = async (page: Page, data) => {
     // demo
     return true
 }
