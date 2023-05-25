@@ -30,6 +30,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@pesce-salato/mama-mia-plugin-helper": "^0.0.4"
+    "@pesce-salato/mama-mia-plugin-helper": "^0.0.6"
   }
 }
